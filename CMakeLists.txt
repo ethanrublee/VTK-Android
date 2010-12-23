@@ -5,7 +5,7 @@
 #        $ mkdir build
 #        $ cd build
 #        $ cmake-gui .. 
-#               set the path for flann, cminpack, eigen, boost, pcl standalone
+#               set the path for VTK 5.6.1 release
 #        $ make
 #    Make sure to set the path in the cache for the crystax ndk available 
 #    here:
