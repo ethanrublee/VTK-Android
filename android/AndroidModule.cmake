@@ -71,12 +71,4 @@ macro(define_module name)
 	define_android_manual(${name} "${lib_srcs}" "$(LOCAL_PATH)/include $(LOCAL_PATH)/src ${android_module_include_dirs} $(OPENCV_INCLUDES)" static)
 endmacro()
 
-macro(rosbuild_add_library lib)
-   # add_library(${lib} SHARED ${ARGN})
-   define_android_manual( ${lib} "${ARGN}" 
-    "${lib_includes}" static)
-
-endmacro(rosbuild_add_library)
-
-
 

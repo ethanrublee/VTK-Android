@@ -1,16 +1,10 @@
 Author: Ethan Rublee
 email: ethan.rublee@gmail.com
 
+This directory is a collection of cmake scripts for android ndk build system.
+
+Think of this as a generator of Android.mk files, similar to the cmake visual studio generator.
+Hopefully will evolve into a generator eventually.
   
-To build with cmake:
-
-mkdir build
-cd build
-cmake ..
-make
-
-
-
-Make sure to set the path in the cache for the crystax ndk available 
-here:
+Make sure to use the crystax ndk as this is the only ndk tested. Justification: RTTI, stl, exceptions, etc...
    http://www.crystax.net/android/ndk-r4.php

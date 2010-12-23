@@ -6,8 +6,7 @@
 # To customize properties used by the Ant build system use,
 # "build.properties", and override values to adapt the script to your
 # project structure.
-android.library.reference.1=${OPENCV_ANDROID_LIBRARY_REF}
 android.library=true
 # Project target.
-target=android-7
+target=android-8
 
