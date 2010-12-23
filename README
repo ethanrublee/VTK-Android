@@ -1,0 +1,16 @@
+you will need:
+crystax ndk
+http://www.crystax.net/android/ndk-r4.php
+download and unzip to your home directory
+
+run the getvtk.sh script, or download and unzip VTK release 5.6.1 somewhere.
+
+then from this directory:
+mkdir build
+cd build
+cmake-gui ..
+make
+
+As part of the cmake-gui step, select the VTK root directory ( if its different ), and the android-ndk path.
+you may want to set j to 16 or something.
+
